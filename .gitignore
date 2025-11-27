@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+anaconda3/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.cursor/
+
+# Project Specific Data & Models
+# On ignore les données brutes et processed, sauf si on veut tracker de petits CSV
+data/raw/
+data/processed/
+*.zip
+*.gz
+
+# On ignore les modèles entraînés (trop lourds pour git standard)
+# Sauf le fichier ONNX qui est léger et utile pour la démo
+models/*.pth
+models/*.pt
+
+# Logs & Temp
+*.log
+terminals/
+
